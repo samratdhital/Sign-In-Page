@@ -1,0 +1,109 @@
+.form-section {
+  width: 75%;
+  margin: 70px auto;
+  display: flex;
+}
+
+/* left section */
+
+/* right section */
+
+.form-right {
+  padding: 40px;
+}
+
+/* form-login */
+
+.form-login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.form-create-account,
+.form-login-item {
+  color: #b2002e;
+  font-size: 18px;
+  display: inline-block;
+}
+.form-login-item {
+  padding: 10px 20px;
+  background-color: #b2002e;
+  color: #fff;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+/* form title */
+
+.form-title {
+  color: #202020;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* form box */
+
+.form-box {
+  margin: 20px 0px;
+}
+.form-box label {
+  display: block;
+  font-size: 18px;
+}
+.form-box input,
+.google-login {
+  margin-top: 13px;
+  border: none;
+  outline: none;
+  padding: 15px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #00000030;
+  transition: all 500ms ease-out;
+}
+
+.form-section input:focus {
+  box-shadow: 0 0 20px #00000030;
+}
+
+.create-account {
+  background-color: #b2002e;
+  color: #fff;
+}
+
+/* or section */
+
+.or-section {
+  position: relative;
+  padding: 20px 0;
+}
+
+.or-border {
+  height: 2px;
+  background-color: #777;
+}
+
+.or-text {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%, -10%);
+  background-color: #fff;
+  padding: 0 15px;
+}
+/* google login */
+
+.google-login {
+  background-color: #fff;
+}
+
+/* form terms */
+.form-terms a {
+  color: #b2002e;
+}
+
+.footer {
+  text-align: center;
+}
